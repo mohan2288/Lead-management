@@ -1,0 +1,59 @@
+.login{
+    position: relative;
+    height: 100vh;
+}
+.forgetpassword{
+    position: relative;
+    height: 100vh;
+}
+.otp{
+    position: relative;
+    height: 100vh;
+}
+.login-inputs{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+}
+.login-inputs::placeholder{
+    padding: 10px;
+}
+.login-inputs:hover{
+    border: 1px solid cadetblue;
+}
+.login-inputs:focus{
+    border:1px solid cadetblue ;
+}
+.login-error{
+    color:var(--error-color);
+    margin-left: 20px;
+}
+.signup-inputs{
+     border:1px solid gainsboro;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+}
+.signup-inputs::placeholder{
+    padding: 10px;
+}
+.signup-inputs:hover{
+    border: 1px solid cadetblue;
+}
+.signup-inputs:focus{
+    border:1px solid cadetblue ;
+}
+.signup-inputs:checked{
+    border:1px solid cadetblue ;
+}
+.signup-error{
+    color:var(--error-color);
+    margin-left: 20px;
+}
+.forgot-error{
+    color:var(--error-color);
+    margin-left: 20px;
+}

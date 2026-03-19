@@ -1,0 +1,18 @@
+/* center the date number */
+.ant-picker-cell-inner {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 32px !important;
+  width: 32px !important;
+  padding: 30px;
+  margin: auto;
+  border-radius: 8px;
+}
+.ant-picker-cell {
+  padding: 0 !important;
+}
+.ant-picker-cell-inner:hover {
+  background: #f5f5f5;
+  border-radius: 20px;
+}

@@ -1,0 +1,24 @@
+.updateform-inputs{
+    border:1px solid gainsboro;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    background:var(--body-color);
+    padding: 20px;
+}
+.updateform-inputs::placeholder{
+    padding: 10px;
+}
+.updateform-inputs:hover{
+    border: 1px solid cadetblue;
+}
+.updateform-inputs:focus{
+    border:1px solid cadetblue ;
+}
+.updateform-error{
+    color:var(--error-color);
+    margin-left: 20px;
+}
+.update-button{
+    width: 25%;
+}

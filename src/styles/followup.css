@@ -1,0 +1,21 @@
+.hover-card{
+     transition :0.2s linear;
+}
+.hover-card:hover{
+     transform: translateY(-4px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.calendar-cell-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.highlight-box {
+  background-color: #9db1f0;
+  color: white;
+  font-weight: bold;
+}

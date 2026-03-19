@@ -1,0 +1,49 @@
+.dashboard-icon{
+    background-color:#EBF2FE;
+    font-size: 30px;
+    color: #3C83F6;
+    padding: 10px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.card-hover{
+    transition :0.2s linear;
+}
+.card-hover:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.distribution-card{
+    transition: 0.2s linear;
+}
+.distribution-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.pipeline-card{
+    transition: 0.2s linear;
+}
+.pipeline-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.lead-card{
+    transition: 0.2s linear;
+}
+.lead-card:hover{
+     transform: translateY(-4px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.recent-lead:hover{
+   border: 1px solid cyan;
+}
+.lead-button:hover{
+    background-color:  turquoise!;
+    color: white!;
+}
